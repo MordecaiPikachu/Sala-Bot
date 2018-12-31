@@ -87,4 +87,4 @@ class Bot(commands.Bot):
         await ctx.send("Büyücü :heart: ")
 
 bot = Bot()
-bot.run("buraya token yaz")
+bot.run(os.environ['BOT_TOKEN'])
